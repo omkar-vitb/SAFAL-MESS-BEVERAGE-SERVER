@@ -1,12 +1,18 @@
 PROJECT TITLE : SAFAL-MESS-AUTOMATIC-BEVERAGE-SERVER
 
-DESCRIPTION:This python program simulates an automatic beverage serving machine that can be used by safal mess of vit bhopal.
+OVERVIEW OF THE PROJECT:This python program simulates an automatic beverage serving machine that can be used by safal mess of vit bhopal.
             Mess staff can fill the machine with  milk , coffee and tea .
-            Students can request for their favourite beverage that will be served to them if machine would have enough quantity left and after after verification of                students.
+            Students can request for their favourite beverage that will be served to them if machine would have enough quantity left and after after verification                OF students.
             beverage will be served in 120 ml quantity as promised in menu by safal mess.
             The machine will also show how much quantity is left in the machine if requested by mess staff.
             The machine also allows staff to refill the beverages. 
-            
+
+TECHNOLOGIES USED:1.Python 3
+                  2.Built in python functions like input and print 
+                  3. dictionaries
+                  4.basic control flow like loops, if-elif-else
+
+                  
 FEATURES : 1.Mess staff needs to input quantity of beverages they want to put in machine initially in litre.
            2.The machine will check if the student belong to safal mess or not. if not it will advise to visit mayuri mess.
            3.if verified,Students can choose between milk,coffee or tea.
@@ -15,11 +21,11 @@ FEATURES : 1.Mess staff needs to input quantity of beverages they want to put in
            6.Staff can refill beverage anytime.
            7. staff and also check remaining beverage levels.
            
-HOW TO RUN: 1.Install python 3
+STEPS TO INSTALL AND RUN: 1.Install python 3
             2.save file as MESS_PROJECT.py
             3.Run the program using : python MESS_PROJECT.py
 
-INPUT REQUIRED: 1.In starting Mess staff must enter the quantity of milk,coffee and tea. If they dont want to put any particular beverage they can simply enter 0.
+INSTRUCTIONS FOR TESTING: 1.In starting Mess staff must enter the quantity of milk,coffee and tea. If they dont want to put any particular beverage they can simply                              enter 0.
                 2.Students choose their mess allotment.
                 3.studnets then choose their beverage that they want to take.
                 4.Staff have the options to choose refill to add beverages in the current stock.
